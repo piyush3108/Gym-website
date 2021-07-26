@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: top;
+  /* padding-top: 80px; */
+}
+
+img {
+  width: 15%;
+  height: 20%;
+}
+
+.navbar {
+  z-index: 1;
+  /* height: 200px; */
+  width: 100%;
+  padding: 10x 10px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 1);
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  top: 0;
+}
+
+.navbar_left {
+  column-count: ;
+}
+
+.navbar_left ul {
+  text-align: center;
+  float: left;
+}
+
+.navbar_left ul li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar_left ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 25px;
+  transition: all ease 0.5s;
+}
+
+.navbar_left ul li a:hover {
+  background-color: #211b4385;
+}
+
+.navbar_right {
+  width: 400px;
+  /* float: right; */
+  /* position: relative; */
+  /* justify-content: space-between; */
+  /* display: flex; */
+  padding: 20px 5px;
+  background-color: inherit;
+  border-radius: 20px;
+}
+
+.profile {
+  display: flex;
+  float: right;
+  background-color: #2a273b;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  line-height: 50px;
+}
+
+.banner-area {
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/1546901/pexels-photo-1546901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-area,
+.physio-area,
+.new-area,
+.test-area,
+.gallery-area,
+.contact-area {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+.text-part {
+  width: 65%;
+  height: 80%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.about-area,
+.new-area,
+.gallery-area {
+  background: #fefefe;
+  color: black;
+}
+
+.test-area,
+.physio-area,
+.contact-area {
+  background: #262626;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #40916c;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.dropbtn {
+  background-color: #2a273b;
+  border-style: none;
+}
+
+.dropbtn:hover {
+  background-color: #676485;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 6;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 6;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
